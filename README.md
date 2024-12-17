@@ -1,6 +1,6 @@
 # 1I-PSI-M3-14687-EXPA03
  <h1>Descrição do Código - Programa de Gestão de Stock</h1>
-    <p>Este código implementa um programa de gestão de stock em Python, permitindo ao usuário registrar materiais, verificar a quantidade disponível, atualizar o stock e exportar o estado geral do stock para um arquivo de texto.</p>
+    <p>Este código implementa um programa de gestão de stock em Python, permitindo ao utilizador registrar materiais, verificar a quantidade disponível, atualizar o stock e exportar o estado geral do stock para um arquivo de texto.</p>
     <h2>Como Funciona</h2>
     <ol>
         <li>O programa define várias funções para gerenciar o stock:</li>
