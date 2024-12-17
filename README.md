@@ -5,12 +5,12 @@
     <ol>
         <li>O programa define várias funções para gerenciar o stock:</li>
         <ul>
-            <li><code>registrar_material(stock)</code>: Permite ao usuário registrar um novo material e sua quantidade. Se o material já estiver registrado, uma mensagem é exibida.</li>
-            <li><code>verificar_stock(stock)</code>: Permite ao usuário consultar a quantidade de um material específico no stock.</li>
-            <li><code>atualizar_stock(stock)</code>: Permite ao usuário adicionar ou remover unidades de um material já registrado. O usuário deve especificar a operação (adicionar ou remover) e a quantidade.</li>
+            <li><code>registrar_material(stock)</code>: Permite ao utilizador registrar um novo material e sua quantidade. Se o material já estiver registrado, uma mensagem é mostrada dizendo que o material já está registrado.</li>
+            <li><code>verificar_stock(stock)</code>: Permite ao utilizador consultar a quantidade de um material específico no stock.</li>
+            <li><code>atualizar_stock(stock)</code>: Permite ao utilizador adicionar ou remover quantidades de um material já registrado. O utilizador deve dizer o que quer fazer (adicionar ou remover) e a quantidade.</li>
             <li><code>mostrar_stock(stock, filename='Stock.txt')</code>: Exporta o estado atual do stock para um arquivo de texto, listando todos os materiais e suas quantidades.</li>
         </ul>
-        <li>A função <code>main()</code> controla o fluxo do programa, apresentando um menu com opções para o usuário:</li>
+        <li>A função <code>main()</code> controla o programa, mostrando um menu com opções para o usuário:</li>
         <ul>
             <li>Registrar Material</li>
             <li>Verificar Stock de um material</li>
@@ -18,5 +18,5 @@
             <li>Verificar Stock Geral</li>
             <li>Sair</li>
         </ul>
-        <li>O programa continua em execução até que o usuário escolha a opção de sair.</li>
+        <li>O programa continua a funcionar até que o usuário escolha a opção de sair.</li>
     </ol>
